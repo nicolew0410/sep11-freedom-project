@@ -9,9 +9,9 @@ It looked way differently from the way we code right now as I started to learn h
 
 I used many youtube videos as well, including: 
 <ul>
-<li>[A Crash Course](https://www.youtube.com/watch?v=6oFvqLfRnsU)</li>
-<li>[A Getting Started Video](https://www.youtube.com/watch?v=8jP4xpga6yY)</li>
-<li>[A Video Explaining Complexity](https://www.youtube.com/watch?v=R84JU3B0jqo&t=1955s)</li>
+<li>https://www.youtube.com/watch?v=6oFvqLfRnsU</li>
+<li>https://www.youtube.com/watch?v=8jP4xpga6yY</li>
+<li>https://www.youtube.com/watch?v=R84JU3B0jqo&t=1955s</li>
 </ul>
 
 I'm actually pretty proud with what I came up with and realized that animations for the future of my project, would have to be very precise. I may even need to use blender or the help of my partner Amelia possibly using Babylon! This would be great for future collaboration.
