@@ -1,7 +1,9 @@
 # Entry 2
 ##### 1/1/2020
+---
 
-By now, I definitely decided that I want to do **three.js**. In the engineering design process, I'm pretty sure I'm at step 4 where I know what I want to do and all I would need to continue on, is to execute the project.
+By now, I definitely decided that I want to do three.js. In the engineering design process, I'm pretty sure I'm at step 4 where I know what I want to do and all I would need to continue on, is to execute the project.
+
 ---
 
 I definitely added onto previous skills like debugging and learning how to educate myself on my own.
