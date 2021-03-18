@@ -54,15 +54,12 @@ Relevance: I needed a source of light and decided spot light was the best simply
  spotLight.decay = -5;
  spotLight.distance = .2;
  spotLight.castShadow = true;
-
-
  var controls = new THREE.OrbitControls( camera, renderer.domElement );
  controls.enableDamping=true;
  controls.screenSpacePanning = false;
  controls.maxDistance = 30;
  controls.maxPolarAngle = Math.PI / 2.8;
  controls.update();
-
 ```
 
 
