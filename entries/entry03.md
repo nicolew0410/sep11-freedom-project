@@ -2,13 +2,15 @@
 ##### 3/18/2021
 
 ---
+
 While exploring [three.js](https://threejs.org) once more, I found a great way to express my love for 3D modeling and creativeness. 
 Today, I tested the importation of models from external sites like [Blender](https://www.blender.org/), which I am very familiar with.
-I'm using both CS50IDE and Blender to tinker since they go hand in hand. The main focus of today's work was loaders for models and more specifically, the GLTF loader.
+I'm using both CS50IDE, Blender, and Github to tinker since they go hand in hand. The main focus of today's work was loaders for models and more specifically, the GLTF loader.
 
 ---
 
 With the help of Mr. Mueller after much frustration, we found out how to get it working by using [this video](https://youtu.be/F4q2cqj_Tdc).
+Initially, I imported a model from a past project I did, but I realized I could do way better.
 As of now, I am currently in step 5 of the Engineering Design Process where I created a prototype. 
 The general terraforming was made with meshes with an intention of low poly graphics. The models like mushrooms, windmills, and the house that were used were taken from a site that offers them for free.
 Keeping in note that my Freedom Project is mainly on an entertainment space, I thought of what would be the most appealing.
@@ -27,10 +29,29 @@ The documentation on the three.js site helped me so much in getting this done. T
 </ul>
 
 The reason why these 4 sites were very important was because I was trying to relpicate what I saw in Blender:
+
 ![Screenshot 1](screen1.png)
 ![Screenshot 2](result.png)
 
-I wanted that same effect, but realized three.js does not work the same way. Either way, it still looked very good so I was satisfied.gp
+I wanted that same effect, but realized three.js does not work the same way. Either way, it still looked very good so I was satisfied.
+
+---
+
+DEFINITIONS AND RELEVANCE
+<ul>
+<li>GLTF - file format for 3D scenes and models with the JSON format</li>
+Relevance: I picked this format in comparison to the other twelve loaders after researching that it is more compatible with programs I'm using or hoping to use.
+<li>Orbit Controls - allow the camera to orbit around a target.</li>
+Relevance: It made sense to pick this type of control to allow both user interaction or more immersion into the scene. 
+<li>Spot Light - emission from a single point in one direction, along a cone that increases in size the further from the light it gets.</li>
+Relevance: I needed a source of light and deicded spot light was the best simply because it allowed shadows which creates depth in the project.
+</ul>
+
+---
+
+In the beginning, my biggest problem was simply getting the loader to load my GLTF model. After figuring it out with Mr. Mueller, I continued to make it presentable with setting up the scene.
+It took me hours to figure out the perfect positioning of not only the camera, but also the controls for their limitations. Because the format runs on [Vector 3](https://threejs.org/docs/?q=light#api/en/math/Vector3), it was hard to visually plan in my head how the x,y,z plane would go.
+Moving forward, I want to add on the current prototype or take that general basis and expand it to where I could complete it with full detail.
 
 ---
 
