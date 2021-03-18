@@ -41,6 +41,7 @@ DEFINITIONS AND RELEVANCE
 <ul>
 <li>GLTF - file format for 3D scenes and models with the JSON format</li>
 Relevance: I picked this format in comparison to the other twelve loaders after researching that it is more compatible with programs I'm using or hoping to use.
+---
 <li>Orbit Controls - allow the camera to orbit around a target.</li>
 ```
 var controls = new THREE.OrbitControls( camera, renderer.domElement );
@@ -51,7 +52,9 @@ controls.maxPolarAngle = Math.PI / 2.8; // Limitation
 controls.update();
 
 ```
+---
 Relevance: It made sense to pick this type of control to allow both user interaction or more immersion into the scene. 
+---
 <li>Spot Light - emission from a single point in one direction, along a cone that increases in size the further from the light it gets.</li>
 ```
 // Lighting
@@ -63,6 +66,7 @@ spotLight.decay = -5;
 spotLight.distance = .2;
 spotLight.castShadow = true; 
 ```
+---
 Relevance: I needed a source of light and deicded spot light was the best simply because it allowed shadows which creates depth in the project.
 </ul>
 
