@@ -46,7 +46,7 @@ Relevance: It made sense to pick this type of control to allow both user interac
 <li>Spot Light - emission from a single point in one direction, along a cone that increases in size the further from the light it gets.</li>
 Relevance: I needed a source of light and decided spot light was the best simply because it allowed shadows which creates depth in the project.
 </ul>
-
+Spot Light:
 ```
  var spotLight = new THREE.SpotLight("#FFC19E") 
  spotLight.position.set( 0.4982 , 70.32728 , 90.7961  );
@@ -55,6 +55,15 @@ Relevance: I needed a source of light and decided spot light was the best simply
  spotLight.decay = -5;
  spotLight.distance = .2;
  spotLight.castShadow = true;
+```
+Orbit Controls:
+```
+var controls = new THREE.OrbitControls( camera, renderer.domElement );
+controls.enableDamping=true;
+controls.screenSpacePanning = false;
+controls.maxDistance = 30;
+controls.maxPolarAngle = Math.PI / 2.8;
+controls.update();
 ```
 
 ---
