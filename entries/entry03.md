@@ -26,6 +26,12 @@ The documentation on the three.js site helped me so much in getting this done. T
 <li>https://threejs.org/examples/#webgl_lights_spotlight</li>
 </ul>
 
+The reason why these 4 sites were very important was because I was trying to relpicate what I saw in Blender:
+![Screenshot 1](screen1.png)
+![Screenshot 2](result.png)
+
+I wanted that same effect, but realized three.js does not work the same way. Either way, it still looked very good so I was satisfied.gp
+
 ---
 
 [Previous](entry02.md) | [Next](entry04.md)
