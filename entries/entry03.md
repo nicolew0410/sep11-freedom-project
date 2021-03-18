@@ -47,7 +47,6 @@ Relevance: It made sense to pick this type of control to allow both user interac
 Relevance: I needed a source of light and decided spot light was the best simply because it allowed shadows which creates depth in the project.
 </ul>
 ```
- // SpotLight
  var spotLight = new THREE.SpotLight("#FFC19E") 
  spotLight.position.set( 0.4982 , 70.32728 , 90.7961  );
  spotLight.power = 5;
@@ -55,7 +54,8 @@ Relevance: I needed a source of light and decided spot light was the best simply
  spotLight.decay = -5;
  spotLight.distance = .2;
  spotLight.castShadow = true;
- // Orbit Controls:
+
+
  var controls = new THREE.OrbitControls( camera, renderer.domElement );
  controls.enableDamping=true;
  controls.screenSpacePanning = false;
