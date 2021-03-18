@@ -56,6 +56,15 @@ spotLight.decay = -5;
 spotLight.distance = .2;
 spotLight.castShadow = true;
 ```
+```javascript
+ var spotLight = new THREE.SpotLight("#FFC19E") 
+ spotLight.position.set( 0.4982 , 70.32728 , 90.7961  );
+ spotLight.power = 5;
+ spotLight.angle = Math.PI / 1;
+ spotLight.decay = -5;
+ spotLight.distance = .2;
+ spotLight.castShadow = true;
+ ```
 
 ---
 
