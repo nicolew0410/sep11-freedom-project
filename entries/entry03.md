@@ -46,7 +46,7 @@ Relevance: It made sense to pick this type of control to allow both user interac
 <li>Spot Light - emission from a single point in one direction, along a cone that increases in size the further from the light it gets.</li>
 Relevance: I needed a source of light and decided spot light was the best simply because it allowed shadows which creates depth in the project.
 </ul>
-Example of SpotLight:
+Example of Controls:
 
 ```
  var controls = new THREE.OrbitControls( camera, renderer.domElement );
