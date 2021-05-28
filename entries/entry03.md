@@ -73,7 +73,7 @@ Of course, there were errors though. Usually, CS50IDE would show a red dot next 
 I had to make sure all the positioning, limitations, and even the model were showing up correctly on the users end. This meant alot of serving, testing, refreshing, and other tiny rearrangments.
 Stack Overflow was especially great at answering any questions on coding. Going hand in hand, my attention to detail and creativeness was shown in my model as well as code.
 I thought of other ways because I didn't want to just work with the limited geometry three.js offered. I made my own geometry which turned out really well!
-Knowing that I want to pursue a career in this field, this project has helped me along the way in the wy I think as well as improving on my hard and soft skills.
+Knowing that I want to pursue a career in this field, this project has helped me along the way in the way I think as well as improving on my hard and soft skills.
 
 ---
 
