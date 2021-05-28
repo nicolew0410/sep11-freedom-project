@@ -17,6 +17,33 @@ After exporting the model from Blender and importing it into three.js using the 
 
 ---
 
+I felt as if some part of the project was missing to make it an actual virtual experience for entertainment. I finally realized it was music! Using a post from Stack Overflow that asked about [inputting music](https://stackoverflow.com/questions/9419263/how-to-play-audio), I was able to create an even better aesthetic. I didn't use three.js for this, but instead I used simple javascript with help from learning functions in class. I recorded the music using QuickTime Player and a Youtube video. I then converted the .aitf file into a mp3 file in order to play it. I was so extremely happy because it only added to the fantasies and dreams I wanted to portray.
+
+---
+
+DEFINITIONS AND RELEVANCE
+
+<ul>
+<li>Cyberpunk - A genre of science fiction set in a subculture  dominated by computer technology.</li>
+<li>Aitf & mp3 files - different types of file that holds music or audio in it </li>
+Relevance: Basis and need to add to the aesthetic of the new 3D model
+</ul>
+
+---
+Example of Music:
+```
+<script>
+    function playMusic(){
+       music.play();
+    }   
+    playMusic();
+</script>
+
+<!-- HTML -->
+<audio id="music" loop src="cyberMusic.mp3" autoplay> </audio>
+```
+---
+
 [Previous](entry03.md) | [Next](entry05.md)
 
 [Home](../README.md)
